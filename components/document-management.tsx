@@ -1,6 +1,6 @@
 "use client"
 
-import type React from "react"
+import React from "react"
 
 import { useState } from "react"
 import { Download, Eye, FileText, Search } from "lucide-react"
@@ -553,13 +553,12 @@ export function DocumentManagement() {
               <Button onClick={handleUpload} className="w-full">
                 Upload Document
               </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </TabsContent>
-    </Tabs>
+            </CardContent>
+          </Card>
+        </TabsContent>
+      </Tabs>
+    </div>
   )
 }
 
-export { DocumentManagement }
 

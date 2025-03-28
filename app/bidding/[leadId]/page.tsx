@@ -9,4 +9,3 @@ export default function BiddingPage({ params }: { params: { leadId: string } }) 
     </DashboardLayout>
   )
 }
-
