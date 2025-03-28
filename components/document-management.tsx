@@ -537,5 +537,29 @@ export function DocumentManagement() {
                   <option value="L-1004">L-1004 - Sunita Verma</option>
                   <option value="L-1005">L-1005 - Vikram Singh</option>
                   <option value="L-1006">L-1006 - Ananya Desai</option>
-                  <option value="L-1007\
+                  <option value="L-1007">L-1007 - Deepak Joshi</option>
+                </select>
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="document-file">Upload Document</Label>
+                <Input
+                  id="document-file"
+                  type="file"
+                  onChange={handleFileChange}
+                />
+              </div>
+
+              <Button onClick={handleUpload} className="w-full">
+                Upload Document
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+      </TabsContent>
+    </Tabs>
+  )
+}
+
+export { DocumentManagement }
 
